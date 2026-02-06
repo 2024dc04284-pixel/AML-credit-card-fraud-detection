@@ -11,8 +11,8 @@ import joblib
 # ------------------------------------------------------------
 @st.cache_resource
 def load_model():
-    model = joblib.load("credit_card_fraud_model_lrl2.pkl")
-    scaler = joblib.load("scaler_lrl2.pkl")
+    model = joblib.load("credit_card_fraud_model_rf.pkl")
+    scaler = joblib.load("scaler_rf.pkl")
     return model, scaler
 
 model, scaler = load_model()
@@ -20,7 +20,7 @@ model, scaler = load_model()
 # ------------------------------------------------------------
 # UI Title
 # ------------------------------------------------------------
-st.title("💳 Credit Card Fraud Detection App")
+st.title("💳 Credit Card Fraud Detection App Using RF")
 st.write("Choose an input method below:")
 
 # ------------------------------------------------------------
