@@ -2,7 +2,7 @@
 AML Assignment to predict the credit card fraud detection
 
 Application Run:
-e
+
 1. git clone https://github.com/2024dc04284-pixel/AML-credit-card-fraud-detection.git
 2. pip install -r requirements.txt
 3. streamlit run app.py  
